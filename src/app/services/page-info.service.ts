@@ -34,7 +34,6 @@ export class PageInfoService {
       .subscribe( (resp: any[]) => {
 
         this.equipo =resp
-        console.log(resp);
       });
      
    }
